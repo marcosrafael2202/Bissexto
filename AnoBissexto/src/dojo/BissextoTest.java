@@ -51,4 +51,9 @@ public class BissextoTest {
 		boolean resposta = Bissexto.definePrimo(2008); 
 		assertEquals(true, resposta); 
 	}
+	@Test
+	public void test2012EhPrimo() {
+		boolean resposta = Bissexto.definePrimo(2012); 
+		assertEquals(true, resposta); 
+	}
 }
